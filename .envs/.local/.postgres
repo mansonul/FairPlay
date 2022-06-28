@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=fair_play
+POSTGRES_USER=dAkiCiNKQOjWWcDARCpgvhPkeIUStEuv
+POSTGRES_PASSWORD=AaOZXAAshJRsv98Qzd60IcNTOcXMXulBCrbO4hgOHCsm1wzKZnpwHpVAK0S3Z3ek
