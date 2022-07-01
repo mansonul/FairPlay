@@ -2,6 +2,8 @@ async def websocket_application(scope, receive, send):
     while True:
         event = await receive()
 
+        print(event)
+
         if event["type"] == "websocket.connect":
             await send({"type": "websocket.accept"})
 

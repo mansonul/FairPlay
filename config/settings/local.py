@@ -11,7 +11,7 @@ SECRET_KEY = env(
     default="7QGOeVrTsoF8zDHJS8R6w7ID4cQOAIsj9DoTUtUGRLa7hd5BGkFBVUzNmL21cHKe",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "192.168.0.105"]
 
 # CACHES
 # ------------------------------------------------------------------------------
@@ -66,3 +66,5 @@ INSTALLED_APPS += ["django_extensions"]  # noqa F405
 CELERY_TASK_EAGER_PROPAGATES = True
 # Your stuff...
 # ------------------------------------------------------------------------------
+ACCOUNT_FORMS = {"signup": "human_resource.forms.PlayerSignupForm"}
+# ACCOUNT_FORMS = {"signup": "human_resource.forms.CustomSignupForm"}
