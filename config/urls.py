@@ -17,7 +17,7 @@ urlpatterns = [
     path("users/", include("fair_play.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    path("jucatori/", include("human_resource.urls", namespace="jucatori")),
+    # path("jucatori/", include("human_resource.urls", namespace="jucatori")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
     # Static file serving when using Gunicorn + Uvicorn for local web socket development
