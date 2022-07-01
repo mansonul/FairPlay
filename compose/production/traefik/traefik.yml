@@ -31,7 +31,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: "Host(`fcfairplaybucuresti.ro`) || Host(`www.fcfairplaybucuresti.ro`)"
+      rule: "Host(`fcfairplaybucuresti.ro`) || Host(`www.fcfairplaybucuresti.ro`) || Host(`68.183.213.238`)"
       entryPoints:
         - web-secure
       middlewares:
